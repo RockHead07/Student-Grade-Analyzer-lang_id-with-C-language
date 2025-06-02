@@ -87,6 +87,8 @@ else return "E";
 - No search or data editing features
 - Text-based only, no graphical interface/no GUI interface.
 
+Based on the weaknesses mentioned above, I believe I can still improve this program by adding more useful features.
+
 ---
 
 ## 💡  Why I Created This Program
