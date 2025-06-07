@@ -110,4 +110,10 @@ As you can see, when I tried entering a student's name as a number, it was rejec
 # 🧑‍💻 Code Programs:
 
 If you want to try out the programs or have any ideas to improve them, here’s the link to the code above in the same repository:
-https://github.com/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language?tab=readme-ov-file
+
+<a href="https://github.com/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language/blob/main/Grade-Analyzer.c" 
+   style="display: inline-block; background-color: #2d89ef; color: white; padding: 8px 16px; text-align: center; 
+          border-radius: 5px; text-decoration: none; font-weight: bold;">
+   View Grade-Analyzer.c on GitHub
+</a>
+
