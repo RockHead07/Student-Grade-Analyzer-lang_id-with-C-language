@@ -100,3 +100,14 @@ I developed this program because I wanted to create a simple tool that would hel
 ## Program Execution
 
 ![Image](https://github.com/user-attachments/assets/acd8b0b8-0104-4a5e-9ef1-612f61fcecca)
+
+# 
+
+The total number of students you can input must be at least 3 and at most 100. Also, this total should be an integer (INT).
+
+As you can see, when I tried entering a student's name as a number, it was rejected ❌. Likewise, entering a student grade as text (varchar) is also not allowed. The names should be VARCHAR (text), and the grades should be INT (numbers).
+
+# 🧑‍💻 Code Programs:
+
+If you want to try out the programs or have any ideas to improve them, here’s the link to the code above in the same repository:
+https://github.com/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language?tab=readme-ov-file
