@@ -117,3 +117,7 @@ If you want to try out the programs or have any ideas to improve them, here’s 
    View Grade-Analyzer.c on GitHub
 </a>
 
+#
+
+P.S. I promise to add English versions of these programs in the future
+
