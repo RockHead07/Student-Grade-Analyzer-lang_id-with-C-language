@@ -1,23 +1,31 @@
-name: C/C++ CI
+name: C Build & Run
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install build tools
+        run: sudo apt update && sudo apt install build-essential -y
+
+      - name: Compile Grade‑Analyzer
+        run: gcc Grade-Analyzer.c -o grade-analyzer
+
+      - name: Run program (with sample input)
+        run: |
+          echo "Sample Input" | ./grade-analyzer
+      
+      - name: Compile all .c files
+        run: |
+          gcc *.c -o app
+      
+      - name: Run app
+        run: ./app
