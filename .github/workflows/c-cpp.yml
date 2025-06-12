@@ -16,16 +16,9 @@ jobs:
       - name: Install build tools
         run: sudo apt update && sudo apt install build-essential -y
 
-      - name: Compile Grade‑Analyzer
-        run: gcc Grade-Analyzer.c -o grade-analyzer
+      - name: Compile Grade‑Analyzer Indonesia Ver.
+        run: gcc Grade-Analyzer-id.c -o grade-analyzer-id
 
       - name: Run program (with sample input)
         run: |
-          echo "Sample Input" | ./grade-analyzer
-      
-      - name: Compile all .c files
-        run: |
-          gcc *.c -o app
-      
-      - name: Run app
-        run: ./app
+          echo "Sample Input" | ./grade-analyzer-id
