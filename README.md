@@ -1,4 +1,4 @@
-# 🎓 Student Grades Sorting and Analysis System
+# Student Grades Sorting and Analysis System🎓🧑‍🎓
 
 A simple and interactive program using C programming language for managing, sorting, and analyzing student scores — complete with grading, academic warnings, and detailed statistics. 
 (⚠️This program was made with Indonesia language, to avoid confusion please use translator).
