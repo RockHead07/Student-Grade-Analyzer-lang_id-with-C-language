@@ -1,9 +1,18 @@
-# Student Grades Sorting and Analysis System🎓🧑‍🎓
+<h1 align="center">🧑‍🎓Student Grades Sorting and Analysis System🎓</h1>
+
+<div align="center">
+     
+![Repo Size](https://img.shields.io/github/repo-size/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language)
+![Last Commit](https://img.shields.io/github/last-commit/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language)
+![License](https://img.shields.io/github/license/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language)
+![Language](https://img.shields.io/github/languages/top/RockHead07/Student-Grade-Analyzer-lang_id-with-C-language)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+</div>
 
 A simple and interactive program using C programming language for managing, sorting, and analyzing student scores — complete with grading, academic warnings, and detailed statistics. 
-(⚠️This program was made with Indonesia language, to avoid confusion please use translator).
 
----
+> [!CAUTION]
+> This program was made with `Indonesia language`, to avoid confusion please use translator.
 
 ## 📌 Project Overview
 
@@ -119,5 +128,5 @@ If you want to try out the programs or have any ideas to improve them, here’s 
 
 #
 
-P.S. I promise to add English versions of these programs in the future
+**P.S. I promise to add English versions of these programs in the future**
 
