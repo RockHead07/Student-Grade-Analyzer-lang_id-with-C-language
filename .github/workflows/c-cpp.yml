@@ -9,16 +9,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Install build tools
-        run: sudo apt update && sudo apt install build-essential -y
-
-      - name: Compile Grade‑Analyzer Indonesia Ver.
-        run: gcc Grade-Analyzer-id.c -o grade-analyzer-id
-
-      - name: Run program (with sample input)
         run: |
-          echo "Sample Input" | ./grade-analyzer-id
+          sudo apt update
+          sudo apt install build-essential -y
+
+      - name: List files for debug
+        run: ls -la
+
+      - name: Compile Grade Analyzer (Indonesian Version)
+        run: |
+          gcc Grade-Analyzer-id.c -o grade-analyzer-id
+
+      - name: Run program with simulated input
+        run: |
+          echo -e "2\nJohn\n90\nJane\n85\n" | ./grade-analyzer-id
