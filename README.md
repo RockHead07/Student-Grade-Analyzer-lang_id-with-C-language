@@ -43,9 +43,9 @@ This project is a **console-based application** written in C language and has a 
 
 ![Image](https://github.com/user-attachments/assets/c3140069-5c30-4b23-be3c-3e5306d07ab7)
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
-#### 1. 🔁 Bubble Sort (Descending Order)
+#### 1. Bubble Sort (Descending Order)
 
 This function used to sort student scores in descending order.
 
@@ -59,7 +59,7 @@ for (int i = 0; i < jumlah - 1; i++) {
 }
 ```
 
-#### 2. 🏷️ Grade Mapping
+#### 2. Grade Mapping
 
 This function has a purpose to maps numerical scores into standard letter grades (*A+, A, ..., E*).
 
@@ -81,7 +81,7 @@ else return "E";
 - Number of students per grade
 - Academic warning alert for students who receive `E`
 
-## ❌ Weaknesses of the Program
+## Weaknesses of the Program
 
 - Uses **Bubble Sort**, whic is inefficient for large datasets (O(n²) complexity)
 - No file saving feature, meaning all data will be lost once the program is closed
@@ -90,7 +90,7 @@ else return "E";
 
 Based on the weaknesses mentioned above, I believe I can still improve this program by adding more useful features.
 
-## 💡  Why I Created This Program
+## Why I Created This Program
 
 I developed this program because I wanted to create a simple tool that would help teachers, lecturers, or teaching assistants manage student grades more easily.
 
@@ -102,7 +102,7 @@ The total number of students you can input must be at least 3 and at most 100. A
 
 As you can see, when I tried entering a student's name as a number, it was rejected ❌. Likewise, entering a student grade as text (varchar) is also not allowed. The names should be VARCHAR (text), and the grades should be INT (numbers).
 
-# 🧑‍💻 Code Programs:
+# Code Programs:
 
 If you want to try out the programs or have any ideas to improve them, here’s the link to the code above in the same repository:
 
