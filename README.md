@@ -28,13 +28,13 @@ This project is a **console-based application** written in C language and has a 
 
 ## 🛠 Features
 
-- ✅ Score input with validation
-- ✅ Letter grade calculation
-- ✅ Bubble sort algorithm (descending order)
-- ✅ Highlight students with failing grades
-- ✅ Grade distribution summary
-- ✅ Interactive CLI with color formatting
-- ✅ Option to restart or exit the program
+- Score input with validation
+- Letter grade calculation
+- Bubble sort algorithm (descending order)
+- Highlight students with failing grades
+- Grade distribution summary
+- Interactive CLI with color formatting
+- Option to restart or exit the program
 
 >[!IMPORTANT]
 >Make sure the program is runs in a **terminal like Ubuntu**'s (*or other ANSI-compatible terminals*) because it uses *ANSI Escape Codes to display colored and formatted text output* 🟥🟩🟦🟨. Here's an example image of **WSL** in **🪟Windows** Terminal:
